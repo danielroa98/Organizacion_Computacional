@@ -29,7 +29,7 @@ public class Tarea_Integradora {
                 //System.out.printf("%c ", caracter);
 
                 cp = codigo.codePointAt(i);
-                secreto = cp * 3;
+                secreto = cp * 9;
 
                 System.out.printf(" %d ", secreto);
 
@@ -46,7 +46,7 @@ public class Tarea_Integradora {
                 System.out.println("Inserte su valor " + cont + ": ");
                 deco = lectura.nextInt();
 
-                secreto = deco / 3;
+                secreto = deco / 9;
 
                 car = (char)secreto;
 
